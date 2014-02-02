@@ -7,7 +7,7 @@ Code can be run from command line as,
 While developing this project I learned about
   - different types of selectors(xpath, css, id, name) to find elements, 
   - concepts and usage of pageObject and pageFactory. 
-  - Implicit and explicit waits
-  - Cucumber
-  - Guice.
+  - Implicit and explicit waits for synchronization
+  - Cucumber for wrapping business language around code
+  - Guice for dependency injection
 	
