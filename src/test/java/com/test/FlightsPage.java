@@ -20,11 +20,6 @@ public class FlightsPage {
 
 	public ResultsPage bookFlight(String originAirport,
 			String destinationAirport) throws InterruptedException {
-
-		// WebElement round_trip = wait.until(ExpectedConditions
-		// .elementToBeClickable(By
-		// .cssSelector("label[id^='roundtrip']>span")));
-		// round_trip.click();
 		// Select Origin and destination
 		WebElement origin = wait.until(ExpectedConditions
 				.elementToBeClickable(By.cssSelector("input[id='origin']")));
