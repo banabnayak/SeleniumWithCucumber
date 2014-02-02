@@ -5,8 +5,9 @@ The program opens  "www.kayak.com" in a user defined browser and finds the cheap
 Code can be run from command line as,
 ```mvn clean test -Dbrowser.name=chrome```
 While developing this project I learned about
-•	different types of selectors(xpath, css, id, name) to find elements,
-•	concepts and usage of pageObject and pageFactory.
-•	Implicit and explicit waits
-•	Cucumber
-•	Guice.
+  - different types of selectors(xpath, css, id, name) to find elements 
+  - concepts and usage of pageObject and pageFactory 
+  - Implicit and explicit waits for synchronization
+  - Cucumber for wrapping business language around code
+  - Guice for dependency injection
+	
